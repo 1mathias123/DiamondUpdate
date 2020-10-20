@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="https://ghinda.net/css-toggle-switch/dist/toggle-switch.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <title>Daimond</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="navigation-wrap start-header start-style">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-md navbar-light">
+
+                        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto py-4 py-md-0">
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="nav-link" href="#">Start</a>
+                                </li>
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="nav-link" href="#">Token Sale</a>
+                                </li>
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="nav-link" href="#">Pools</a>
+                                </li>
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 thpart" id="methamask_status">
+                                    <a class="nav-link nav-btn" onclick="approveMethamask()">Approve Metamask <img src="images/nav-btn-ic.png" alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Hero Banner -->
+    <section class="hero-banner-wrp">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="banner-txt">
+                        <h1>Shine Bright Like A Diamond</h1>
+                        <p>Diamond Farm is the easiest way to stake your crypto and earn huge rewards with no real risk. Rewards are paid in DMD, an ERC-20 token with a cap of 20,000. 5,000 DMD tokens will be sold during the presale, 4,000 DMD, along with 400 ETH will serve as liquidity on Uniswap, 1,000 DMD are reserved for the team, and the remaining 10,000 DMD tokens can be earned through staking. The best investors realize that a passive investment strategy gives them complete leverage and control, multiplying their holdings effortlessly. So sit back, relax, and watch your crypto compound with Diamond Farm!" </p>
+
+                        <div class="btn-group">
+                            <a href="https://medium.com/@diamondfarm/diamond-farm-dmd-d46e0cd46664" class="btn-main">Learn More</a>
+                            <a href="https://t.me/diamondfarmGroup"><i class="far fa-paper-plane"></i></a>
+                            <a href="https://twitter.com/DiamondFarm2"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="banner-frm-block  invest-form-blured">
+                        <div class="banner-frm">
+                            <h1>Token Sale</h1>
+
+                            <form>
+                                <div class="form-group">
+                                    <label>From</label>
+                                    <div class="mng-bx">
+                                        <input id="eth_amount" type="text" name="" value="1" class="form-control">
+                                        <img src="images/ethermini.png" alt="">
+                                        <span>ETH</span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Amount</label>
+                                    <div class="mng-bx">
+                                        <input id="dim_amount" type="text" name="" value="10" class="form-control">
+                                        <img src="images/DiamondLogo.png" alt="">
+                                        <span>DIM</span>
+                                    </div>
+                                    <!-- <div class="mng-bx">
+                                        <div class="dropdown">
+                                            <button type="button" class="dropdown-toggle" data-toggle="dropdown">
+                                                Earth Hex <span>- EHX</span><i class="fal fa-angle-down"></i>
+                                            </button>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Earth Hex <span>- EHX</span></a>
+                                                <a class="dropdown-item" href="#">Earth Hex <span>- EHX</span></a>
+                                                <a class="dropdown-item" href="#">Earth Hex <span>- EHX</span></a>
+                                            </div>
+                                        </div>
+                                        <img src="images/d-shp2.png" alt="">
+                                    </div> -->
+                                </div>
+
+                                <h4>Receive <span><img src="images/DiamondLogo.png" alt=""> <strong id="receive_amount">10</strong>DIM</span></h4>
+                                <a class="btn btn-tras invest-btn" id="invest" style="color: white; cursor: pointer;" onclick="approveMethamask()">Unlock Wallet</a>
+                            </form>
+
+                            <img src="images/diamond-1.png" alt="" class="frmshp1">
+                            <img src="images/diamond-2.png" alt="" class="frmshp2">
+                        </div>
+
+                        <img src="images/banner-backsp.png" alt="" class="backfrm-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Banner -->
+
+    <!-- Pools -->
+    <section class="pools-wrp">
+        <div class="container">
+            <h2>Pools</h2>
+            <p>Diamond Farm pools will offer 10,000 DMD for staking rewards. Staking is 100% FREE and will always be FREE with no rewards going to the developers. We believe that investors deserve all the DMD they stake. </p>
+
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-lg-4 blured">
+                    <div class="pool-block">
+                        <div class="pool-head">
+                            <h3>Alpha Pool <a href="#">Project Site <i class="fal fa-arrow-right"></i></a></h3>
+                        </div>
+
+                        <div class="pool-img">
+                            <img src="images/pool-img.png" alt="">
+
+                            <h4><div id="rewards1">0.000</div><span>Alpha Earned</span></h4>
+
+                            <a href="#" class="btn-tras locked-wallet" onclick="approveMethamask()">Unlock Wallet</a>
+
+                            <h5><img src="images/small-daimond-ic.png" alt=""> Your Stake <span id="stakedBalance1">0.000</span></h5>
+                            <h5><img src="images/small-daimond-ic.png" alt=""> APY <span id="apy1">0.000</span></h5>
+                            <h5><img src="images/small-daimond-ic.png" alt=""> Total Syrup Staked <span id="totalStaked1">0.000</span></h5>
+
+                            <div class="pool_stake_unstake">
+                                <a class="btn-tras" id="approve_or_stake1" onclick="stake(1)">Approve</a>
+                                <input type="number" name="" id="tokenAmount1" class="form-control">
+                                <a class="btn-tras" onclick="unstake(1)">Unstake</a>
+                            </div>
+                            <a class="btn-tras btn-withdraw" onclick="harvest(1)">Withdraw</a>
+                            <img src="images/diamond-1.png" alt="" class="frmshp1">
+                            <!-- <img src="images/diamond-1.png" alt="" class="frmshp1 frmshp3"> -->
+                            <!-- <img src="images/diamond-2.png" alt="" class="frmshp2"> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-lg-4 blured">
+                    <div class="pool-block">
+                        <div class="pool-head">
+                            <h3>Alpha Pool <a href="#">Project Site <i class="fal fa-arrow-right"></i></a></h3>
+                        </div>
+
+                        <div class="pool-img">
+                            <img src="images/pool-img.png" alt="">
+
+                            <h4><div id="rewards2">0.000</div><span>Alpha Earned</span></h4>
+
+                            <a href="#" class="btn-tras locked-wallet" onclick="approveMethamask()">Unlock Wallet</a>
+
+                            <h5><img src="images/small-daimond-ic.png" alt=""> Your Stake <span id="stakedBalance2">0.000</span></h5>
+                            <h5><img src="images/small-daimond-ic.png" alt=""> APY <span id="apy2">0.000</span></h5>
+                            <h5><img src="images/small-daimond-ic.png" alt=""> Total Pickaxes Staked <span id="totalStaked2">0.000</span></h5>
+
+                            <div class="pool_stake_unstake">
+                                <a class="btn-tras" id="approve_or_stake2" onclick="stake(2)">Approve</a>
+                                <input type="number" name="" id="tokenAmount2" class="form-control">
+                                <a class="btn-tras" onclick="unstake(2)">Unstake</a>
+                            </div>
+                            <a class="btn-tras btn-withdraw" onclick="harvest(2)">Withdraw</a>
+                            <img src="images/diamond-2.png" alt="" class="frmshp2">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-lg-4 blured">
+                    <div class="pool-block">
+                        <div class="pool-head">
+                            <h3>Alpha Pool <a href="#">Project Site <i class="fal fa-arrow-right"></i></a></h3>
+                        </div>
+
+                        <div class="pool-img">
+                            <img src="images/pool-img.png" alt="">
+
+                            <h4><div id="rewards3">0.000</div><span>Alpha Earned</span></h4>
+
+                            <a href="#" class="btn-tras locked-wallet" onclick="approveMethamask()">Unlock Wallet</a>
+
+                            <h5><img src="images/small-daimond-ic.png" alt=""> Your Stake <span id="stakedBalance3">0.000</span></h5>
+                            <h5><img src="images/small-daimond-ic.png" alt=""> APY <span id="apy3">0.000</span></h5>
+                            <h5><img src="images/small-daimond-ic.png" alt=""> Total Syrup Staked <span id="totalStaked3">0.000</span></h5>
+
+                            <div class="pool_stake_unstake">
+                                <a class="btn-tras" id="approve_or_stake3" onclick="stake(3)">Approve</a>
+                                <input type="number" name="" id="tokenAmount3" class="form-control">
+                                <a class="btn-tras" onclick="unstake(3)">Unstake</a>
+                            </div>
+                            <a class="btn-tras btn-withdraw" onclick="harvest(3)">Withdraw</a>
+
+                            <img src="images/diamond-1.png" alt="" class="frmshp1 frmshp3">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-lg-4 blured">
+                    <div class="pool-block">
+                        <div class="pool-head">
+                            <h3>Alpha Pool <a href="#">Project Site <i class="fal fa-arrow-right"></i></a></h3>
+                        </div>
+
+                        <div class="pool-img">
+                            <img src="images/pool-img.png" alt="">
+
+                            <h4><div id="rewards4">0.000</div><span>Alpha Earned</span></h4>
+
+                            <a href="#" class="btn-tras locked-wallet" onclick="approveMethamask()">Unlock Wallet</a>
+
+                            <h5><img src="images/small-daimond-ic.png" alt=""> Your Stake <span id="stakedBalance4">0.000</span></h5>
+                            <h5><img src="images/small-daimond-ic.png" alt=""> APY <span id="apy4">0.000</span></h5>
+                            <h5><img src="images/small-daimond-ic.png" alt=""> Total Syrup Staked <span id="totalStaked4">0.000</span></h5>
+
+                            <div class="pool_stake_unstake">
+                                <a class="btn-tras" id="approve_or_stake4" onclick="stake(4)">Approve</a>
+                                <input type="number" name="" id="tokenAmount4" class="form-control">
+                                <a class="btn-tras" onclick="unstake(4)">Unstake</a>
+                            </div>
+                            <a class="btn-tras btn-withdraw" onclick="harvest(4)">Withdraw</a>
+
+                            <img src="images/diamond-2.png" alt="" class="frmshp2">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-lg-4 blured">
+                    <div class="pool-block">
+                        <div class="pool-head">
+                            <h3>Alpha Pool <a href="#">Project Site <i class="fal fa-arrow-right"></i></a></h3>
+                        </div>
+
+                        <div class="pool-img">
+                            <img src="images/pool-img.png" alt="">
+
+                            <h4><div id="rewards5">0.000</div><span>Alpha Earned</span></h4>
+
+                            <a href="#" class="btn-tras locked-wallet" onclick="approveMethamask()">Unlock Wallet</a>
+
+                            <h5><img src="images/small-daimond-ic.png" alt=""> Your Stake <span id="stakedBalance5">0.000</span></h5>
+                            <h5><img src="images/small-daimond-ic.png" alt=""> APY <span id="apy5">0.000</span></h5>
+                            <h5><img src="images/small-daimond-ic.png" alt=""> Total Syrup Staked <span id="totalStaked5">0.000</span></h5>
+                            <div class="pool_stake_unstake">
+                                <a class="btn-tras" id="approve_or_stake5" onclick="stake(5)">Approve</a>
+                                <input type="number" name="" id="tokenAmount5" class="form-control">
+                                <a class="btn-tras" onclick="unstake(5)">Unstake</a>
+                            </div>
+                            <a class="btn-tras btn-withdraw" onclick="harvest(5)">Withdraw</a>
+
+                            <img src="images/diamond-1.png" alt="" class="frmshp1 frmshp3">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-lg-4 blured">
+                    <div class="pool-block">
+                        <div class="pool-head">
+                            <h3>Alpha Pool <a href="#">Project Site <i class="fal fa-arrow-right"></i></a></h3>
+                        </div>
+
+                        <div class="pool-img">
+                            <img src="images/pool-img.png" alt="">
+
+                            <h4><div id="rewards6">0.000</div><span>Alpha Earned</span></h4>
+
+                            <a href="#" class="btn-tras locked-wallet" onclick="approveMethamask()">Unlock Wallet</a>
+
+                            <h5><img src="images/small-daimond-ic.png" alt=""> Your Stake <span id="stakedBalance6">0.000</span></h5>
+                            <h5><img src="images/small-daimond-ic.png" alt=""> APY <span id="apy6">0.000</span></h5>
+                            <h5><img src="images/small-daimond-ic.png" alt=""> Total Syrup Staked <span id="totalStaked6">0.000</span></h5>
+
+                            <div class="pool_stake_unstake">
+                                <a class="btn-tras" id="approve_or_stake6" onclick="stake(6)">Approve</a>
+                                <input type="number" name="" id="tokenAmount6" class="form-control">
+                                <a class="btn-tras" onclick="unstake(6)">Unstake</a>
+                            </div>
+                            <a class="btn-tras btn-withdraw" onclick="harvest(6)">Withdraw</a>
+
+                            <img src="images/diamond-2.png" alt="" class="frmshp2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="pool-backimg">
+                <img src="images/pool-back-img.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- End Pools -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="foot-top">
+            <img src="images/footer-top.png" alt="">
+        </div>
+        <div class="footer-one">
+            <div class="container">
+                <div class="fot-link">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12">
+                            <div class="foot-logo">
+                                <img src="images/foot-logo.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-sm-6">
+                            <div class="quicklinks">
+                                <ul>
+                                    <li><a href="#">Start</a></li>
+                                    <li><a href="#">Token Sale</a></li>
+                                    <li><a href="#">Pools</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="openbt" id="methamask_status_2">
+                                <a onclick="approveMethamask()" class="btn-f" >Approve Metamask <img src="images/nav-btn-ic.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="social-bx">
+                                <a href="#" target="_blank"><i class="far fa-paper-plane"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-sm-6">
+                            <div class="sponcer-lg">
+                                <a href="#"><img src="images/spo-logo.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="copytxt">
+                                <p>Copyright © 2020 vimerco Ltd. All Rights Reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img src="images/foot-sh1.png" alt="" class="fooshp1">
+            <img src="images/foot-sh2.png" alt="" class="fooshp2">
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/8db2e95406.js"></script>
+    <script type="text/javascript">
+        /* ** Check Payment ** */
+        $(".lev-set-bcx ul li").click(function(e){
+            var cb = $(this).find(":checkbox")[0];
+            if (e.target != cb) cb.checked = !cb.checked;
+            $(this).toggleClass("selected", cb.checked);
+        });
+        /* ** End Check Payment ** */
+    </script>
+    <script type="text/javascript" src="js/web3.min.js"></script>
+    <script type="text/javascript" src="js/presale.js"></script>
+    <script type="text/javascript" src="js/swap.js"></script>
+    <script type="text/javascript" src="js/stake_web3.js"></script>
+
+    <style id="locked_wallet" media="screen">
+      .blured :not(.locked-wallet)>  div :not(.locked-wallet){
+        filter:blur(2px) grayscale(.8);
+      }
+      .invest-form-blured > div > form :not(.invest-btn){
+        filter:blur(2px) grayscale(.8);
+      }
+      body > section.hero-banner-wrp > div > div > div:nth-child(2) > div > div > h1 {
+        filter:blur(2px) grayscale(.8);
+      }
+    </style>
+</body>
+</html>
