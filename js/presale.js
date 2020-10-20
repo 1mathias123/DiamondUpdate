@@ -1,8 +1,8 @@
 //Minimum buy amount (in ether)
 const minAmount = 0.01
 
-const contractAddress='0xdca3511db7827739ca1239d89049aa6e94fd34a8'
-const tokenAddress='0x3f2ae7eca443fdfb79c1fd8984135dc02975c177'
+const contractAddress='0xe55C1d10406E25B92B42e2c5fE80E13EDF9Bc263'
+const tokenAddress='0x8db1d09da6a0f7ec5134ff1c014d98aecf80cd2b'
 
 let contractInstance = undefined
 let tokenInstance = undefined
