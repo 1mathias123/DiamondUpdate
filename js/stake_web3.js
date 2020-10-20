@@ -1,4 +1,4 @@
-const activePools = 2
+const activePools = 1
 const config_json = {
   dim:{
     dimInstance: undefined,
